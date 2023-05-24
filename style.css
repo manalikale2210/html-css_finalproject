@@ -1,0 +1,425 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.logo{
+    background-color: rgb(223, 67, 10);
+    width: 90px;
+    height: 15px;
+    padding: 40px;
+    margin-top: 20px;
+    
+}
+.logo img{
+    width: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -170px;
+    margin-left: 50px;
+    position: fixed;
+}
+
+.header ul{
+    background-color: white;
+    width: 900px;
+    height: 78px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.active{
+    color: red;
+}
+.header ul li:hover{
+    color: red;
+}
+.quote{
+    background-color: rgb(223, 67, 10);
+    width: 150px;
+    height: 29px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+span{
+    color: white;
+    margin-left: 10px;
+    
+}
+.content{
+    margin-top: 200px;
+}
+.heading {
+    margin-left: 70px;
+    width: 500px;
+    height: 50px;
+    color: white;
+    font-size: 70px;
+    display: inline;
+}
+.p1{
+    margin-left: 70px;
+    color: white;
+    font-size: 20px;
+}
+.quote1{
+    background-color: rgb(246, 77, 15);
+    width: 150px;
+    height: 17px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.contact{
+    background-color: rgb(230, 75, 18);
+    width: 981px;
+    height: 191px;
+    margin-left: 484px;
+    display: flex;
+    justify-content: right;
+}
+.contact ul{
+    color: white;
+    padding-top: 70px;
+    margin-right: 100px;
+}
+.contact ul h3{
+    margin-top: 0;
+}
+.contact ul li{
+    display: flex;
+}
+.social{
+background-color: black;
+width: 50px;
+height: 220px;
+text-align: center;
+justify-content: space-around;
+margin-left: 1415px;
+margin-top: -100px;
+}
+.social img{
+    width: 20px;
+    padding: 10px;
+}
+.main{
+    background-color: white;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.head{
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 70px;
+}
+.para{
+    color: gray;
+}
+.who{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.img img{
+    margin-left: 40px;
+    width: 700px;
+    height: 400px;
+}
+.info{
+    margin-right: 70px;
+    font-size: 18px;
+}
+.p{
+    color: gray;
+}
+.number{
+    margin-left: 30px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(210, 61, 7);
+    margin-bottom: 10px;
+}
+.p1{
+    font-size: 16px;
+    color: grey;
+}
+.header2{
+    margin-top: 100px;
+    margin-left: 100PX;
+    margin-right: 50PX;
+    display: flex;
+    justify-content: space-between;
+}
+.header2 p{
+    color: grey;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.images1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.image img{
+    width: 440px;
+    height: 350px;
+}
+.work1{
+    background-color: rgb(226, 26, 26);
+    text-align: center;
+    color: white;
+    width: 1370px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.work1 p{
+    opacity: 0.8;
+}
+.team{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.team h4{
+    cursor: pointer;
+    color: grey;
+}
+.team h4:hover{
+    text-decoration: underline;
+    color: rgb(241, 50, 50);
+}
+.pic{
+    margin-left: 70px;
+}
+.pic img{
+    width: 250px;
+    height: 310px;
+}
+.social-icons{
+    background-color: orangered;
+    width: 35px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -70px;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.title{
+    margin-top: -40px;
+    margin-left: 120px;
+}
+.title h3{
+    color: black;
+}
+.title h5{
+    margin-top: -15px;
+    margin-left: 20px;
+    color: gray;
+}
+.team1{
+    display: flex;
+}
+.name{
+    margin-left: 20px;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial{
+   margin-top: 200px;
+   margin-left: 40px;
+}
+.testimonial p{
+    color: grey;
+}
+.one{
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.one p{
+    color: grey;
+}
+.one h4{
+    color: black;
+}
+.two{
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.two p,h5{
+    color: grey;
+}
+.two h4{
+    color: black;
+}
+.three{
+    margin-top: 300px;
+    margin-left: -890px;
+}
+.three p,h5{
+    color: grey;
+}
+.three h4{
+    color: black;
+}
+.four{
+    margin-top: 350px;
+    margin-left: -50px;
+}
+.four p,h5{
+    color: grey;
+}
+.four h4{
+    color: black;
+}
+.same{
+    margin-top: -15px;
+    color: grey;
+}
+.late{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.view h5{
+    color: black;
+    opacity: 0.7;
+}
+.post{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.post img{
+    width: 450px;
+    height: 249px;
+}.post1{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(248, 102, 49);
+    margin-left: 32px;
+}
+.posts{
+    display: flex;
+}
+.post1{
+    color: white;
+}
+.post1 h3,p,h4{
+    margin-left: 30px;
+}
+.post1 p{
+    opacity: 0.7;
+}
+.post1 h4{
+    text-decoration: underline;
+}
+.logo1{
+    width: 1356px;
+    height: 40px;
+    background-color: rgb(245, 54, 54);
+    margin-left: 30px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.logos h3,h4{
+    margin-top: 5px;
+}
+.last{
+    background-color: rgb(16, 16, 58);
+    width: 1200px;
+    height: 500px;
+    margin-left: 130px;
+    margin-top: -5px;
+    
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.about-nuuk{
+    color: white;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.about-nuuk h5{
+    color: white;
+    margin-left: 30px;
+}
+.services{
+    margin-top: 70px;
+}
+.services h5,h3{
+    color: white;
+}
+.contact-us{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.contact-us h5,h4{
+    color: white;
+}
+.contact-us h5{
+    color: rgb(108, 108, 254);
+    margin-left: 30px;
+}
+.nuuk-logo{
+    background-color: rgb(245, 167, 21);
+    width: 100px;
+    height: 65px;
+    margin-top: 123px;
+    margin-left: 40px;
+}
+.nuuk-logo img{
+    width: 90px;
+    height: 60px;
+}
